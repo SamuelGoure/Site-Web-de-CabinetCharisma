@@ -22,6 +22,7 @@
     margin: 0;
     list-style-type: none;
     box-sizing: border-box;
+   
 }
 
 /* corps et document */
@@ -51,6 +52,7 @@ body {
     justify-content: center;
     height: 12%;
     z-index: 9999;
+    
 }
 
 .header2 {
@@ -79,6 +81,7 @@ body {
 
 .btn-1 {
     border-left: 10px solid #fff;
+    margin-top: 15px;
 
 }
 
@@ -346,18 +349,20 @@ i {
 /* main  */
 main {
     
-    height: 95vh !important;
+    height: 100vh !important;
     display: flex !important;
     justify-content: center !important;
     align-items: flex-end !important;
     position: relative !important;
     padding: 20px 30px !important;
+   
   
 }
 .box_on-page
  {  width: 60%;
-    height: auto;
+    height: 75%;
     position: relative;
+  
     /* padding-bottom: 20px; */
 }
 .box_on-page::before{
@@ -381,8 +386,8 @@ main {
     font-size: 35px;
 }
 .big_text{
-    width: 70%;
-    font-size: 3rem;
+   
+    font-size: 4rem;
     padding: 0px 30px;
     color: #fff;
     font-weight: 800;
@@ -393,6 +398,24 @@ main {
     width: 70%;
     line-height: 2rem;
     padding: 10px 30px;
+    font-size: 20px;
+    
+/* position: absolute;
+width: 757px;
+height: 106px;
+left: 258px;
+top: 686px;
+
+font-family: 'Futura LT';
+font-style: normal;
+font-weight: 400;
+font-size: 25px;
+line-height: 35px;
+/* or 140% */
+
+text-align: justify;
+
+color: #FFFFFF; */
 }
 
 
@@ -405,6 +428,7 @@ main {
     display: flex;
     width: 100vw;
     height: 100vh;
+   
 }
 
 .principal .boite_gauche {
@@ -458,14 +482,21 @@ main {
 
 /*  */
 .bdroite_contenu {
-    height: 90vh;
+   
+    height: 100vh;
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
     background-color: #fff;
-    position: relative;
+    width: 100%;
     
+}
+
+.bdroite_contenu_box{
+   width: 100%;
+   margin-left: -25px;
+   margin-bottom: 215px;
 }
 
 .bdroite_contenu2 {
@@ -493,7 +524,8 @@ main {
 }
 
 .bdroite_contenu_box {
-    width: 90%;
+   width: 100%;
+   margin-left: -25px;
 }
 
 .bdroite_contenu_box__1 {
@@ -514,6 +546,7 @@ main {
     padding-bottom: 10px;
     position: relative;
     font-weight: bold;
+    padding-top: 5%;
 }
 
 .bdroite_contenu_box h2::after {
@@ -625,7 +658,7 @@ main {
 /*  */
 .bdroite_contenu_box1 .img_descriptif {
     width: 45%;
-    height: 400px;
+    height: 500px;
     margin-right: 15px;
     background: url('img/synthia.jpg');
     background-size: contain;
@@ -677,7 +710,7 @@ h3 {
     text-transform: uppercase;
     font-size: 2.3rem;
     color: #031674;
-    width: 64%;
+    width: 77%;
     margin: 0 auto;
     font-weight: bold;
 }
@@ -716,10 +749,11 @@ h3 {
     border-radius: 5px;
     padding: 5px;
     margin: 5px;
-    height: 70%;
+    height: 460px;
     display: flex;
     flex-direction: column;
     align-items: center;
+   
 }
 
 h2.title_experience {
@@ -1043,6 +1077,7 @@ footer {
     main {
         width: 100vw !important;
         height: 75vh !important;
+        
     }
 
     .box_on-page::before {
@@ -1136,10 +1171,11 @@ footer {
     .box_on-page {
         max-width: 300px;
         padding: 0;
-        height: 80%;
+        height: 55%;
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;
+        
 
     }
 
@@ -1158,6 +1194,7 @@ footer {
         font-size: 1.2rem;
         max-width: 350px;
         padding-right: 0;
+        width: 70%;
     }
 
     /* A PROPOS */
@@ -1635,3 +1672,146 @@ footer {
     }
 }
  
+
+
+
+@media screen and (min-width: 760px) and (max-width: 1023px) {
+   .page_texts{
+    width: 70%;
+   }
+    }
+    
+   /*     commentaire supplementaire */ 
+@media screen and (max-width:765px) {
+    .card_skills-company {
+        width: 100% !important;
+    }
+
+   
+
+    .card-actu {
+        width: 90% !important;
+        margin: 0 auto;
+        height: 260px;
+    }
+    footer {
+        display: flex !important;
+        width: 100% !important;
+        background-color: #0b1751 !important;
+        height: 31vh !important;
+        font-size: .8rem !important;
+        padding: 5px 0 !important;
+    }
+    .box_experiences {
+        width: 100% !important;
+
+    }
+
+    .box_left {
+
+        width: 80% !important;
+
+    }
+    .bdroite_contenu_box2{
+        margin: 20px auto !important;
+        padding: 0 0 30px 0 !important;
+    }
+    .know-more{
+       margin-bottom: -70px;
+    
+    }
+    .bdroite_contenu_box{
+       
+        padding-bottom: 15px;  
+    }
+    .bdroite_contenu_box3{
+       height: 95%; 
+      
+    }
+  .bdroite_contenu_box4{
+    margin-bottom: 0;
+    padding-bottom: 0;
+    
+  }
+  footer{
+ 
+    margin-top: -20px;
+    padding-bottom: 150px;
+  }
+
+    .card_skills-company{
+        height: 45%;
+    }
+    .know-more2 {
+       
+        visibility: hidden;
+    }
+}
+
+/* reeal */ 
+@media screen and  (max-width: 1476px) {
+    .box_on-page{
+
+    }
+    .big_text{
+        font-size: 3rem;
+       
+        margin-bottom: 15px;
+    }
+    .page_texts{
+        font-size: 20px;
+       
+        margin-bottom: 15px;
+    }
+}
+@media screen and  (max-width: 1279px) {
+    .box_on-page{
+        width: 550px;
+      
+    }
+    .big_text{
+        font-size: 3rem;
+        
+        margin-bottom: 15px;
+    }
+    .page_texts{
+        font-size: 15px;
+       
+        margin-bottom: 15px;
+       width: 100%;
+        
+    }
+    .btn-1{
+        margin: -10px;
+    }
+}
+
+/* dernier partie */ 
+@media screen and  (max-width: 1024px) {
+   .box_on-page{
+    margin-top: -55px;
+    height: 85%;
+   }
+   /* .big_text{
+
+   } */
+}
+@media screen and  (max-width: 767px) {
+   .box_on-page{
+   
+    padding-right: 15px;
+   }
+   .big_text{
+
+   }
+   .page_texts{
+    margin-top: -18%;
+   }
+   .btn-1{
+    margin-top: -25%;
+    width: 100%;
+   }
+   /* .big_text{
+
+   } */
+}
